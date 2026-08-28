@@ -60,7 +60,7 @@ Renew stock retail into an "AI+consumption" experience field, differentiated fro
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
 - **≥5 personas**: basic researcher, AI application engineer, cross-border entrepreneur, local resident (incl. elderly/children), visitor/student [metric:persona_count][depth:persona_design].
-- **12 scenario cards**: AI study room, community health station, railway-heritage AR tour, driverless micro-circulation dispatch, low-carbon energy simulation, AI elderly companion, children AI-literacy class, open-source achievement gallery, compute-booking platform, industry compliance sandbox, AI heritage-inspection patrol, community co-creation council [metric:scenario_card_count]. Each card defines operator, human review, privacy boundary, failure rollback, pilot metric, and stop condition; provisional stop thresholds include false-positive rate >5% for community health and misjudgment rate >10% for heritage inspection, to be recalibrated with real data [assumption:scenario_threshold_provisional].
+- **12 scenario cards**: AI study room, community health station, railway-heritage AR tour, driverless micro-circulation dispatch, low-carbon energy simulation, AI elderly companion, children AI-literacy class, open-source achievement gallery, compute-booking platform, industry compliance sandbox, AI heritage-inspection patrol, community co-creation council [metric:scenario_card_count]. Each card defines operator, human review, privacy boundary, failure rollback, pilot metric, and stop condition; stop thresholds are unverified pilot presets (false-positive rate >5% for community health and misjudgment rate >10% for heritage inspection); these do NOT constitute industry standards or professional acceptance bases and must be recalibrated with real expert data [assumption:scenario_threshold_unverified].
 - **≥3 industry test scenarios**: robot inspection pilot, AI-education product compliance test, low-carbon energy dispatch simulation [metric:industry_test_count].
 - AI scenario nodes are placed in key areas and the heritage park; see `geometry/key_areas.geojson` (illustrated in `assets/figures/mobility-bluegreen.png`) [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 
@@ -95,15 +95,15 @@ Land-use partition from provisional boundary in `geometry/land_use.geojson`; are
 
 ### Implementation Feasibility Parameters (Provisional Estimation Framework)
 
-To respond to the task book's "implementability" dimension, the table below provides **conceptual-stage estimates** based on provisional geometry, announced areas, and public cost ranges; all figures are for professional deepening only and must be recomputed once official redlines, property rights, municipal capacity, and engineering conditions are available. They do not replace formal investment decisions [assumption:implementation_provisional][assumption:cost_benchmark_public].
+To respond to the task book's "implementability" dimension, the table below provides a **conceptual-stage estimation framework** based on provisional geometry and announced areas; precise monetary amounts are pending project-level cost consultancy; all figures must be recomputed once official redlines, property rights, municipal capacity, and engineering conditions are available. They do not replace formal investment decisions [assumption:implementation_provisional][assumption:cost_benchmark_method_only].
 
 | Parameter | Near-term (Zhongzhiyuan) | Mid-term (AI Origin Community) | Far-term (Dazhongsi + full belt) | Basis |
 |---|---|---|---|---|
 | Key area area | 192.1 ha | 104.3 ha | 72.0 ha | Official announcement [source:haidian_gov_2026] |
-| Buildable/renewable floor area at FAR 1.0 | ~1.92 million m² | ~1.04 million m² | ~0.72 million m² | Area × FAR 1.0 [metric:floor_area_ratio] |
+| Scenario-estimated floor area (FAR 1.0 design assumption) | ~1.92 million m² | ~1.04 million m² | ~0.72 million m² | Area × FAR 1.0 (design target assumption; NOT an approved control or development permit conclusion) [metric:floor_area_ratio][assumption:far_scenario] |
 | Conceptual renewal ratio (activation + light renovation) | 15% | 20% | 25% | Heritage-protection density decreasing assumption [assumption:implementation_provisional] |
 | Conceptual renewed floor area | ~290,000 m² | ~210,000 m² | ~180,000 m² | Product of the above two rows |
-| Conceptual investment range | 1.5–4.5 billion CNY | 1.0–3.5 billion CNY | 0.8–3.0 billion CNY | Estimated from public urban-renewal cost range 5,000–15,000 CNY/m² [assumption:cost_benchmark_public] |
+| Conceptual investment framework (pending project-level cost estimation) | Pending formal cost consultancy | Pending formal cost consultancy | Pending formal cost consultancy | Cost categories: civil/M&E/fit-out/heritage-strengthening/municipal hookup; method: reference comparable urban-renewal projects' public ranges; requires formal cost consultancy report and approval [assumption:cost_benchmark_method_only] |
 | Heritage retention target | ≥95% | ≥90% | ≥85% | Industrial-heritage authenticity priority [assumption:implementation_provisional] |
 | Public-space capacity at 5% public-space ratio | ~9.6 ha | ~5.2 ha | ~3.6 ha | Area × public_space_ratio 5% [metric:public_space_ratio] |
 | Occupancy-commitment verification mechanism | New/major-renewal vessels require ≥60% LOI or intent-to-lease | Community facilities require signed service agreement with operator | Commercial renewal requires anchor-tenant MOU | Hard threshold to avoid "scenes over products" [depth:implementation_logic] |

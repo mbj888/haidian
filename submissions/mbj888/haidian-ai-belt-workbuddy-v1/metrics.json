@@ -89,33 +89,39 @@
       ]
     },
     "total_floor_area": {
-      "status": "known",
-      "value": 43609232.558,
+      "status": "unknown",
+      "value": null,
       "unit": "sqm",
+      "value_note": "情景测算量，非法定控制或开发许可结论",
       "source_files": [
         "geometry/site_boundary.geojson",
         "geometry/land_use.geojson"
       ],
-      "formula": "far*site_area",
+      "formula": "far*site_area (scenario: FAR=1.0 assumed target)",
       "confidence": "low",
       "assumptions": [
+        "Design scenario estimate based on assumed FAR 1.0 × provisional site area; NOT a legally controlled buildable area or development permit conclusion.",
         "Reconciled site boundary area to spatial-review reference 43,609,232.558 m² (was 43,645,653 m² planar shoelace). Provisional.",
         "Calculated from repository provisional rough boundary geometry (brief/site-package/geometry/provisional_boundaries.geojson, PROV-*); not suitable for official area or redline claims.",
-        "FAR 1.0 recomputed on provisional site area; recompute on official redlines."
-      ]
+        "FAR 1.0 is a design assumption/target for scenario modeling; must be recomputed on official regulatory conditions."
+      ],
+      "reason": "设计假设/情景测算值，非审定或实测值；须以官方控规条件与开发许可重算后方可作为控制或批复依据"
     },
     "floor_area_ratio": {
-      "status": "known",
-      "value": 1.0,
+      "status": "unknown",
+      "value": null,
       "unit": "ratio",
+      "value_note": "设计假设目标值，非审定容积率",
       "source_files": [
         "geometry/site_boundary.geojson"
       ],
-      "formula": "total_floor_area/site_area",
+      "formula": "total_floor_area/site_area (scenario)",
       "confidence": "low",
       "assumptions": [
-        "Assumed target, recompute on official redlines."
-      ]
+        "Assumed design target for scenario modeling; NOT an officially approved floor area ratio or regulatory control value.",
+        "Must be recomputed on official redlines and statutory planning conditions before any investment or engineering decision."
+      ],
+      "reason": "设计假设/情景测算值，非审定或实测值；须以官方控规条件与开发许可重算后方可作为控制或批复依据"
     },
     "building_density": {
       "status": "known",
