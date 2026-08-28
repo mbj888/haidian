@@ -241,7 +241,7 @@
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "818c025f51146db8cea4a93c3e51e2cdeee2bc1b4fd219b1c88814255f3f4f7d",
+      "sha256": "6d8debbd24840bff1816cf55937a16908452545558f3186a125ec905c86f916d",
       "language": "zh"
     },
     {
@@ -256,7 +256,7 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "8c4d6fe76d2852c28911a6de275737b55ad42529394656d93546dd04120c477f",
+      "sha256": "4f75eb342125138b827b5112c4b68f47d93e9c96b9ba0ab3b4d461165ca6f415",
       "language": "zh"
     },
     {
