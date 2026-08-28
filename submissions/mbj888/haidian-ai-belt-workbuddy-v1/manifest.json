@@ -188,7 +188,7 @@
       "path": "assets/figures/metrics-evidence.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "af24337ad0650bf5032e4f20a8d26ece91b288701e6d9a3959594232e3d12b92",
+      "sha256": "60a38e04a2f5ed78cf5026c6b15130a0784f2fddaa5505232545aabf1fc16a9c",
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png"
     },
@@ -196,7 +196,7 @@
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "9c1cfdb2825abfa7bd23b7e8935e1609df9fc8b93b6945fea1961895051a5f52",
+      "sha256": "9d6c998adb03a787d3b9d1678613be2794906146c3486e3528f21f135e171b47",
       "language": "zh"
     },
     {
@@ -241,7 +241,7 @@
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "d893cb6519ca803662efd005e678dc361f7eeedaae42bb78de74924c84b9dd84",
+      "sha256": "818c025f51146db8cea4a93c3e51e2cdeee2bc1b4fd219b1c88814255f3f4f7d",
       "language": "zh"
     },
     {
@@ -256,7 +256,7 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "8a197aaec74a22b962fd53786baf1fa19f108ff68656521e90bfc79cd49a2a70",
+      "sha256": "8c4d6fe76d2852c28911a6de275737b55ad42529394656d93546dd04120c477f",
       "language": "zh"
     },
     {
