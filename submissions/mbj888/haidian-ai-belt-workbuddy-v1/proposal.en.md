@@ -60,7 +60,7 @@ Renew stock retail into an "AI+consumption" experience field, differentiated fro
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
 - **≥5 personas**: basic researcher, AI application engineer, cross-border entrepreneur, local resident (incl. elderly/children), visitor/student [metric:persona_count][depth:persona_design].
-- **12 scenario cards**: AI study room, community health station, railway-heritage AR tour, driverless micro-circulation dispatch, low-carbon energy simulation, AI elderly companion, children AI-literacy class, open-source achievement gallery, compute-booking platform, industry compliance sandbox, AI heritage-inspection patrol, community co-creation council [metric:scenario_card_count].
+- **12 scenario cards**: AI study room, community health station, railway-heritage AR tour, driverless micro-circulation dispatch, low-carbon energy simulation, AI elderly companion, children AI-literacy class, open-source achievement gallery, compute-booking platform, industry compliance sandbox, AI heritage-inspection patrol, community co-creation council [metric:scenario_card_count]. Each card defines operator, human review, privacy boundary, failure rollback, pilot metric, and stop condition; provisional stop thresholds include false-positive rate >5% for community health and misjudgment rate >10% for heritage inspection, to be recalibrated with real data [assumption:scenario_threshold_provisional].
 - **≥3 industry test scenarios**: robot inspection pilot, AI-education product compliance test, low-carbon energy dispatch simulation [metric:industry_test_count].
 - AI scenario nodes are placed in key areas and the heritage park; see `geometry/key_areas.geojson` (illustrated in `assets/figures/mobility-bluegreen.png`) [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 
@@ -93,11 +93,38 @@ Land-use partition from provisional boundary in `geometry/land_use.geojson`; are
 - Policy suggestion: codify the "machine-readable task book" paradigm as a digital pre-condition for future land conveyance [depth:policy].
 - Phasing extents in `geometry/phasing.geojson` [data:geometry/phasing.geojson].
 
+### Implementation Feasibility Parameters (Provisional Estimation Framework)
+
+To respond to the task book's "implementability" dimension, the table below provides **conceptual-stage estimates** based on provisional geometry, announced areas, and public cost ranges; all figures are for professional deepening only and must be recomputed once official redlines, property rights, municipal capacity, and engineering conditions are available. They do not replace formal investment decisions [assumption:implementation_provisional][assumption:cost_benchmark_public].
+
+| Parameter | Near-term (Zhongzhiyuan) | Mid-term (AI Origin Community) | Far-term (Dazhongsi + full belt) | Basis |
+|---|---|---|---|---|
+| Key area area | 192.1 ha | 104.3 ha | 72.0 ha | Official announcement [source:haidian_gov_2026] |
+| Buildable/renewable floor area at FAR 1.0 | ~1.92 million m² | ~1.04 million m² | ~0.72 million m² | Area × FAR 1.0 [metric:floor_area_ratio] |
+| Conceptual renewal ratio (activation + light renovation) | 15% | 20% | 25% | Heritage-protection density decreasing assumption [assumption:implementation_provisional] |
+| Conceptual renewed floor area | ~290,000 m² | ~210,000 m² | ~180,000 m² | Product of the above two rows |
+| Conceptual investment range | 1.5–4.5 billion CNY | 1.0–3.5 billion CNY | 0.8–3.0 billion CNY | Estimated from public urban-renewal cost range 5,000–15,000 CNY/m² [assumption:cost_benchmark_public] |
+| Heritage retention target | ≥95% | ≥90% | ≥85% | Industrial-heritage authenticity priority [assumption:implementation_provisional] |
+| Public-space capacity at 5% public-space ratio | ~9.6 ha | ~5.2 ha | ~3.6 ha | Area × public_space_ratio 5% [metric:public_space_ratio] |
+| Occupancy-commitment verification mechanism | New/major-renewal vessels require ≥60% LOI or intent-to-lease | Community facilities require signed service agreement with operator | Commercial renewal requires anchor-tenant MOU | Hard threshold to avoid "scenes over products" [depth:implementation_logic] |
+| Failure / rollback criterion | Pause expansion if no pilot lands or LOI <40% | Shrink to single node if on-time rate <80% or no operator agreement | Keep existing stock if anchor MOU <30% or cash-flow negative | Phased validation logic [depth:renewal_project_list] |
+
+> Note: All monetary figures, ratios, and thresholds above are **conceptual assumptions** used to demonstrate that the scheme has a financeable spatial framework; formal investment requires statutory planning, engineering estimates, property negotiations, and approvals [assumption:implementation_provisional].
+
 ## Metrics, Area Recalculation, and Compliance Matrix
 
 All metrics and compliance responses in `metrics.json`, `compliance_matrix.json`; announcement 1.3/1.4/1.5 and agent.1–agent.6 fully covered [standard:compliance][metric:indicator_set]. Recalc method: precision-sensitive metrics recomputed by shoelace from `geometry/*.geojson`; provisional results are approximate and must be recomputed on official redlines [depth:metrics_recalculation][assumption:area_recalculation].
 
 ![Core metrics](assets/figures/metrics-evidence.png)
+
+## AI Governance and Global Discourse Mechanism
+
+To strengthen the task book's "global AI governance discourse power" function, this proposal does not reduce "governance" to a compliance checklist; instead, it turns the design process itself into a reusable open-governance infrastructure [depth:ai_governance].
+
+- **Machine-readable task book and open review**: Publish the task book, indicators, assumptions, sources, and compliance matrix as structured JSON/Markdown so external researchers, regulators, and citizens can trace every design decision; this submission already follows that paradigm [standard:data_governance].
+- **Multi-stakeholder governance council**: Propose a "Jingzhang AI Urban Governance Council" comprising government, universities, enterprises, resident representatives, heritage experts, and AI-ethics members to conduct quarterly reviews of algorithm updates, data use, and stop conditions for the 12 scenario cards; council resolutions and dissenting opinions are published [depth:ai_governance].
+- **Algorithm audit and ethics sandbox**: The industry compliance sandbox (scenario 10) and high-sensitivity scenarios such as driverless micro-circulation, health, and elderly care must pass third-party algorithm-impact assessment with an open template; before any scenario goes live, publish training-data sources, performance baselines, false-positive/misjudgment-rate thresholds, and human-takeover protocols [standard:human_oversight][assumption:scenario_threshold_provisional].
+- **Cross-border knowledge export**: Use the bilingual "Jingzhang Origin Axis" brand and the GitHub name-monument mechanism to translate the belt's scenario tests, failure rollbacks, and governance decisions into an open, citable knowledge package; the goal is to offer the world's industrial-heritage urban-renewal and AI-urban-governance communities a verifiable Eastern sample, not a one-way technology export [depth:branding_loop][depth:long_term_ops].
 
 ## Risk, Copyright, and Compliance
 

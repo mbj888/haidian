@@ -40,5 +40,38 @@
     ],
     "description": "Official detailed planning conditions not in cleared public package; gaps do not block content scoring.",
     "recalculation_trigger": "Official site-package update"
+  },
+  "scenario_threshold_provisional": {
+    "status": "known",
+    "value": true,
+    "unit": "bool",
+    "source_files": [
+      "proposal.md",
+      "proposal.en.md"
+    ],
+    "description": "Scenario-card stop thresholds (e.g., false-positive rate 5% for community health, 10% for heritage patrol) are provisional operational limits derived from common public-sector AI benchmarks, not validated by project-specific clinical or conservation datasets. They must be recalibrated with real data before deployment.",
+    "recalculation_trigger": "Project-specific validation dataset availability"
+  },
+  "implementation_provisional": {
+    "status": "known",
+    "value": true,
+    "unit": "bool",
+    "source_files": [
+      "proposal.md",
+      "proposal.en.md"
+    ],
+    "description": "Implementation feasibility parameters (renewal ratios, investment ranges, heritage retention targets, tenant-commitment thresholds, go/no-go criteria) are conceptual estimates for design-stage discussion only. They do not constitute funding commitments, construction budgets, or approval conditions and must be replaced by formal engineering estimates, financial models, and negotiated agreements.",
+    "recalculation_trigger": "Official regulatory plan, engineering conditions, financing, and tenant negotiations"
+  },
+  "cost_benchmark_public": {
+    "status": "known",
+    "value": true,
+    "unit": "bool",
+    "source_files": [
+      "proposal.md",
+      "proposal.en.md"
+    ],
+    "description": "Cost benchmarks referenced in the implementation feasibility table are broad public-domain ranges for urban renewal in large Chinese cities; they are not project-specific quotations or tender prices.",
+    "recalculation_trigger": "Project-specific cost estimation or tender"
   }
 }
